@@ -8,7 +8,7 @@
 
 ## Description
 
-The Nsys Platform Scripts provide set of maintenance scripts for development, deployment and testing of the [Nsys Platform](https://nsys.org).
+Installation and maintenance scripts for [Nsys Platform](https://nsys.org).
 
 [1]: https://nsys.org
 [2]: http://code.nsys.org
