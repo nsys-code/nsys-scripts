@@ -58,7 +58,7 @@ Installation and maintenance scripts for [Nsys Platform](https://nsys.org).
 # ./nsys-installer.sh --help
 
 Nsys Platform Installation Script
-Copyright 2015, 2017 Nsys.org - Tomas Hrdlicka <tomas@hrdlicka.co.uk>
+Copyright 2015, 2018 Nsys.org - Tomas Hrdlicka <tomas@hrdlicka.co.uk>
 All rights reserved.
 
 Web: code.nsys.org
@@ -75,10 +75,10 @@ Options:
     -b, --nsys-basedir DIR   Nsys Platform installation directory (e.g. /opt/nsys)
     -h, --nsys-home DIR      Nsys Platform home directory for application data
                              (e.g. /var/nsys/application-data)
-        --reinstall          Uninstall current version of Nsys Platform,
-                             then continue with installation of latest version.
-                             Backup of previous installation is available in
-                             folder $NSYS_BASEDIR/.backup
+        --reinstall          Uninstall the current version of Nsys Platform,
+                             then continue with the installation of the latest
+                             version. Backup of the previous installation
+                             is available in folder $NSYS_BASEDIR/.backup
         --force-download     Download latest version of the bundle everytime
         --cfg-daemon-srv     Configure Nsys Daemon to run as service
         --cfg-portal-srv     Configure Nsys Portal to run as service
