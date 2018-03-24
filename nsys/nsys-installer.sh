@@ -151,7 +151,7 @@ installNsysBundle() {
         echo
         echo "Backup available in $NSYS_BACKUP_DIR/$NSYS_BACKUP_FILE"
         echo
-        echo "Removing previous installation..."
+        echo "Removing the previous installation..."
         echo
 
         rm -rf $NSYS_BASEDIR/*
@@ -260,10 +260,10 @@ appHelp() {
     echo "    -b, --nsys-basedir DIR   Nsys Platform installation directory (e.g. /opt/nsys)"
     echo "    -h, --nsys-home DIR      Nsys Platform home directory for application data"
     echo "                             (e.g. /var/nsys/application-data)"
-    echo "        --reinstall          Uninstall current version of Nsys Platform,"
-    echo "                             then continue with installation of latest version."
-    echo "                             Backup of previous installation is available in"
-    echo "                             folder \$NSYS_BASEDIR/.backup"
+    echo "        --reinstall          Uninstall the current version of Nsys Platform,"
+    echo "                             then continue with the installation of the latest"
+    echo "                             version. Backup of the previous installation"
+    echo "                             is available in folder \$NSYS_BASEDIR/.backup"
     echo "        --force-download     Download latest version of the bundle everytime"
     echo "        --cfg-daemon-srv     Configure Nsys Daemon to run as service"
     echo "        --cfg-portal-srv     Configure Nsys Portal to run as service"
