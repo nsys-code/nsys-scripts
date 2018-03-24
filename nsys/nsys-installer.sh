@@ -3,7 +3,7 @@
 ##########################################################################
 #                                                                        #
 # Nsys Platform Installation Script                                      #
-# Copyright 2015, 2017 Nsys.org - Tomas Hrdlicka <tomas@hrdlicka.co.uk>  #
+# Copyright 2015, 2018 Nsys.org - Tomas Hrdlicka <tomas@hrdlicka.co.uk>  #
 # All rights reserved.                                                   #
 #                                                                        #
 # Web: code.nsys.org                                                     #
@@ -240,7 +240,7 @@ runScriptAsService() {
 appHeader() {
     echo
     echo "Nsys Platform Installation Script"
-    echo "Copyright 2015, 2017 Nsys.org - Tomas Hrdlicka <tomas@hrdlicka.co.uk>"
+    echo "Copyright 2015, 2018 Nsys.org - Tomas Hrdlicka <tomas@hrdlicka.co.uk>"
     echo "All rights reserved."
     echo
     echo "Web: code.nsys.org"
