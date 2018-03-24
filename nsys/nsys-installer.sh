@@ -74,9 +74,9 @@ checkPrerequisites() {
 
     if [ -e $NSYS_BASEDIR/bin/nsys-launcher.sh ] && [ ! "$NSYS_REINSTALL" = "true" ]; then
         echo "Nsys Platform installation detected in folder '$NSYS_BASEDIR'!"
-        echo "Before you can continue you need to uninstall current version."
-        echo "You can use option '--reinstall' that create a bakup of previous version"
-        echo "and start installation of latest version."
+        echo "Before you can continue you need to uninstall the current version."
+        echo "You can use option '--reinstall' that create a backup of the previous version"
+        echo "and start the installation of the latest version."
         echo
         echo "Run command '$0 --help' to see all available options."
         echo
